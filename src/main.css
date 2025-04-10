@@ -9,14 +9,6 @@
 body {
     margin: 0;
     font-family: Roboto, sans-serif;
-    /* color: var(--text-body); */
-    /* background-color: var(--color-background-white); */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-
 }
 
 h1,
@@ -57,4 +49,12 @@ button {
 button {
     cursor: pointer;
     color: currentColor;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
