@@ -1,8 +1,10 @@
 import React from 'react'
 import Profile from './components/profile/Profile';
 import userData from './assets/userData.json';
+import transactionData from './data/transactions.json';
 import friends from './data/friends.json';
 import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
 export const App = () => {
     return (
@@ -16,6 +18,8 @@ export const App = () => {
             />
             <br />
             <FriendList friendsData={friends} />
+            <hr />
+            <TransactionHistory transaction={transactionData} />
         </>
     );
 };
